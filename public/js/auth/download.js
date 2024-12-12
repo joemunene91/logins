@@ -219,14 +219,14 @@ auth.onAuthStateChanged(user => {
 				type: 'JPG', width: 20,height: 20,margin: { top: 0, left: 0 }
 			},
 			business: {
-				name: "Darkweb SBS", email: "email@darkweb.sbs", 
-				email_1: "admin@darkweb.sbs", website: "www.darkweb.sbs",
+				name: "Darkweb Logs", email: "email@darkweb.sbs", 
+				email_1: "admin@darkweb.sbs", website: "Bank Logins",
 			},
 			contact: {
 				label: "Invoice issued for: ", 
 				name: theName,
 				address: theAddress, 
-				email: "www.darkweb.sbs",
+				email: "Darkweb Logs",
 			},
 			invoice: {
 				label: bankLog, num: 1,
@@ -249,7 +249,7 @@ auth.onAuthStateChanged(user => {
 				invDescLabel: "Payment Status: PENDING",
 				invDesc: "Bitcoin address: ' 1AMjPsZQvqeAfnEjfk17fEUZc6rZuM9Ccp '",
 			},
-			footer: { text: "Copyright © www.darkweb.sbs -:- 2024", }, pageEnable: true, pageLabel: "Page ",
+			footer: { text: "Copyright © Darkweb Logs -:- 2024", }, pageEnable: true, pageLabel: "Page ",
 		};
 	}
 
