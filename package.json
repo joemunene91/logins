@@ -1,12 +1,12 @@
 {
   "dependencies": {
     "firebase": "^10.12.2",
-    "firebase-tools": "^13.10.2"
+    "firebase-tools": "^13.10.2",
+    "gh-pages": "^6.2.0"
   },
   "name": "darknet",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
