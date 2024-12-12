@@ -11,6 +11,7 @@
     "deploy": "gh-pages -d public"
   },
   "keywords": [],
+  "homepage": "https://joemunene91.github.io/logins",
   "author": "",
   "license": "ISC",
   "description": ""
