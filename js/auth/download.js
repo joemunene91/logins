@@ -8,11 +8,11 @@ var firebaseConfig = {
 	measurementId: "G-DPMFHGTNMQ"
 }; firebase.initializeApp(firebaseConfig);
 
-if(!window.location.href.includes('rkweb')){ 
-	if(!window.location.href.includes('5501')) {
-		window.location.assign('index')
-	}
-}
+// if(!window.location.href.includes('rkweb')){ 
+// 	if(!window.location.href.includes('5501')) {
+// 		window.location.assign('index')
+// 	}
+// }
 
 fetch('https://ipapi.co/json/').then(function(response) { return response.json()}).then(function(data) {
 	localStorage.setItem('locationZ', data.country_name +  ', ' + data.city); 
