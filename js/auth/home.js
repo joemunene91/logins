@@ -1,13 +1,13 @@
 var firebaseConfig = {
-	apiKey: "AIzaSyCLx_0JBHCdwEDqtmJMbeQr0-paTRI4aE8",
-	authDomain: "darkwebs-sbs.firebaseapp.com",
-	projectId: "darkwebs-sbs",
-	storageBucket: "darkwebs-sbs.firebasestorage.app",
-	messagingSenderId: "43858686537",
-	appId: "1:43858686537:web:244d04e6d695c94c530598",
-	measurementId: "G-DPMFHGTNMQ"
+	apiKey: "AIzaSyDDQG6UNGhn0TvT8u-veAMsg92xelsIvtM",
+	authDomain: "darkwe-sbs.firebaseapp.com",
+	projectId: "darkwe-sbs",
+	storageBucket: "darkwe-sbs.firebasestorage.app",
+	messagingSenderId: "41268759379",
+	appId: "1:41268759379:web:ec28e37126a05492f76fa6",
+	measurementId: "G-1EJ1L4HRL6"
 }; firebase.initializeApp(firebaseConfig);
-var theWebsite = 'https://darkwebs-sbs.web.app/home';
+var theWebsite = 'https://www.darkweb.sbs/home';
 
 const auth = firebase.auth();
 const db = firebase.firestore();
